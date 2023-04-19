@@ -3,7 +3,7 @@
 ## Comment executer ce script ?
 * Veuillez créer un dossier à l'emplacement souhaité où sera placé le projet.
 * Vous pouvez désormais clôner ce dépot dans le dossier fraîchement créé via `git clone https://github.com/ZentaAeros/P12_ANTOINE_CARDON.git`
-* Allez à la racine du projet
+* Allez à la racine du projet via `cd P12_ANTOINE_CARDON`
 * Vous pouvez à présent créer un environnement virtuel via : `python -m venv env`
 * Activez l'environnement virtuel via `source env/bin/activate`
 * Installez les paquets nécessaire à l'éxecution du script à l'aide du fichier *requirements.txt* via `python -m pip install -r requirements.txt`
