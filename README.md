@@ -15,6 +15,7 @@
 * Vous pouvez ensuite fermer le shell psql via `\q`
 * Executez ensuite cette commande pour configurer la base de données dans le projet : `python configure_env.py`
 * Suivez les instructions et entrez votre nom d'utilisateur et le mot de passe utilisé pour accéder à la base de données.
+* Vous pouvez lancer le projet via la commande `python manage.py runserver`
 * ENJOY ! Vous êtes prêt à utiliser l'application !
 
 ## Guide d'utilisation de l'application :
