@@ -20,3 +20,17 @@
 
 ## Guide d'utilisation de l'application :
 Retrouvez tous les endpoints sur https://documenter.getpostman.com/view/20095524/2s93Y3u1Jx
+
+|   Endpoint   |  Méthode |   Description |
+|---           |---          |---            |
+|http://127.0.0.1:8000/token| POST | Permet d'obtenir un token pour accéder à l'application            |
+|http://127.0.0.1:8000/customers/| POST | Permet de créer un client            |
+|http://127.0.0.1:8000/customers/| GET | Permet d'obtenir la liste des clients            |
+|http://127.0.0.1:8000/customers/:customer_id/| GET | Permet d'obtenir un client via son ID            |
+|http://127.0.0.1:8000/customers/:customer_id/| PUT | Permet de modifier un client via son ID            |
+|http://127.0.0.1:8000/customers/:customer_id/| DELETE | Permet de supprimer un client via son ID            |
+|http://127.0.0.1:8000/events/| GET | Permet d'obtenir la liste des évènements          |
+|http://127.0.0.1:8000/events/:event_id/| PUT | Permet de modifier un évènement via son ID |
+|http://127.0.0.1:8000/contracts/| POST | Permet de créer un contrat |
+|http://127.0.0.1:8000/contracts/:contract_id/| PUT | Permet de modifier un contrat via son ID |
+|http://127.0.0.1:8000/contracts/:contract_id/| GET | Permet de lire un contrat via son ID |
