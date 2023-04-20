@@ -23,7 +23,7 @@ Retrouvez tous les endpoints sur https://documenter.getpostman.com/view/20095524
 
 |   Endpoint   |  Méthode |   Description |
 |---           |---          |---            |
-|http://127.0.0.1:8000/token| POST | Permet d'obtenir un token pour accéder à l'application            |
+|http://127.0.0.1:8000/token/| POST | Permet d'obtenir un token pour accéder à l'application            |
 |http://127.0.0.1:8000/customers/| POST | Permet de créer un client            |
 |http://127.0.0.1:8000/customers/| GET | Permet d'obtenir la liste des clients            |
 |http://127.0.0.1:8000/customers/:customer_id/| GET | Permet d'obtenir un client via son ID            |
