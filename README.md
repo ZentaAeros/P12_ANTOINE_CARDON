@@ -29,6 +29,7 @@ Retrouvez tous les endpoints sur https://documenter.getpostman.com/view/20095524
 |http://127.0.0.1:8000/customers/:customer_id/| GET | Permet d'obtenir un client via son ID            |
 |http://127.0.0.1:8000/customers/:customer_id/| PUT | Permet de modifier un client via son ID            |
 |http://127.0.0.1:8000/customers/:customer_id/| DELETE | Permet de supprimer un client via son ID            |
+|http://127.0.0.1:8000/events/| POST | Permet de créer un évènement          |
 |http://127.0.0.1:8000/events/| GET | Permet d'obtenir la liste des évènements          |
 |http://127.0.0.1:8000/events/:event_id/| PUT | Permet de modifier un évènement via son ID |
 |http://127.0.0.1:8000/contracts/| POST | Permet de créer un contrat |
