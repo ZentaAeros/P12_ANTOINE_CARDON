@@ -4,4 +4,7 @@ from .models import Event
 
 # Register your models here.
 
-admin.site.register(Event)
+class EventAdmin(admin.ModelAdmin):
+    list_display = ('contract', 'support_contact', 'event_status', 'attendees', 'event_date')
+
+admin.site.register(Event, EventAdmin)
